@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/PC/Documents/Projects/DefaultEmptyProject/Project/Assets/\\\\! -name \"*.cs\" -type f -exec wc -l {} + | tail -1)",
+      "Bash(git -C /c/Users/PC/Documents/Projects/DefaultEmptyProject log --oneline -10)"
+    ]
+  }
+}

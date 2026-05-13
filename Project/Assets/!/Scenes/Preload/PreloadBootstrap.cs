@@ -40,6 +40,11 @@ namespace Game.Bootstrap
 			 BindInstance(new PreloadViewController());
 		}
 
+		protected override void AddDebugOptions()
+		{
+			
+		}
+
 		public override void ResetComponentContainers(DataContainersController dataController)
 		{
 			

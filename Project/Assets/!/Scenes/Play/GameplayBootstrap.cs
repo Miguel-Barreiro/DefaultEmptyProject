@@ -25,11 +25,16 @@ namespace Scenes.Play
 
 		public override void SetupConfigurations()
 		{
-			
 		}
 
 		protected override void InstallSystems()
 		{
+			
+		}
+
+		protected override void AddDebugOptions()
+		{
+//			AddDebugOption();
 			
 		}
 
